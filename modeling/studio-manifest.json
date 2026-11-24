@@ -1,0 +1,461 @@
+{
+  "blender": "4.5.16 LTS",
+  "assets": [
+    {
+      "buildingId": "complex",
+      "name": "南湖综合楼",
+      "model": "/assets/campus/studio/complex.glb",
+      "source": "modeling/studio-source/complex.blend",
+      "template": "complex",
+      "facade": "south",
+      "doorOffset": 28.0,
+      "dimensions": [
+        98,
+        31,
+        30
+      ],
+      "verification": "photo-and-gis",
+      "bytes": 138672,
+      "sha256": "ed34646b72a2dfebbb1ae8a5cc6c1a4bda163f37bc4883ea9ac0d7c7f64ac613",
+      "standard": "/assets/campus/v5/complex.glb",
+      "standardSource": "modeling/source/complex.blend"
+    },
+    {
+      "buildingId": "library",
+      "name": "南湖图书馆入口",
+      "model": "/assets/campus/studio/library.glb",
+      "source": "modeling/studio-source/library.blend",
+      "template": "annex",
+      "facade": "south",
+      "doorOffset": 0.0,
+      "dimensions": [
+        24,
+        6,
+        47
+      ],
+      "verification": "gis-interpretation",
+      "bytes": 15880,
+      "sha256": "05888d86313b825452a2cc9688723c2221b0821d0cf9ff26f4104900dc964795",
+      "standard": "/assets/campus/v5/library.glb",
+      "standardSource": "modeling/source/library.blend"
+    },
+    {
+      "buildingId": "canteen",
+      "name": "南湖食堂",
+      "model": "/assets/campus/studio/canteen.glb",
+      "source": "modeling/studio-source/canteen.blend",
+      "template": "canteen",
+      "facade": "south",
+      "doorOffset": 6.4,
+      "dimensions": [
+        36,
+        10,
+        20
+      ],
+      "verification": "gis-interpretation",
+      "bytes": 28396,
+      "sha256": "1215f3238a9d4b568de956a239a753743d1d536f7edb6599a96be280737e1603",
+      "standard": "/assets/campus/v5/canteen.glb",
+      "standardSource": "modeling/source/canteen.blend"
+    },
+    {
+      "buildingId": "d11",
+      "name": "南湖宿舍 11 栋",
+      "model": "/assets/campus/studio/d11.glb",
+      "source": "modeling/studio-source/d11.blend",
+      "template": "dorm",
+      "facade": "north",
+      "doorOffset": -0.975,
+      "dimensions": [
+        22,
+        13,
+        13
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 33316,
+      "sha256": "8ffad9f10cc5a2e7529b841839376bd674313d9ca4524c176256cc52538bfa8f",
+      "standard": "/assets/campus/v5/d11.glb",
+      "standardSource": "modeling/source/d11.blend"
+    },
+    {
+      "buildingId": "d12",
+      "name": "南湖宿舍 12 栋",
+      "model": "/assets/campus/studio/d12.glb",
+      "source": "modeling/studio-source/d12.blend",
+      "template": "dorm",
+      "facade": "north",
+      "doorOffset": -0.558,
+      "dimensions": [
+        17,
+        15,
+        12
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 34248,
+      "sha256": "923acc8c38b273c9aa1b6cb7e3edcf573d12191eeb8d6bb8942cf195f8bbf478",
+      "standard": "/assets/campus/v5/d12.glb",
+      "standardSource": "modeling/source/d12.blend"
+    },
+    {
+      "buildingId": "d13",
+      "name": "南湖宿舍 13 栋",
+      "model": "/assets/campus/studio/d13.glb",
+      "source": "modeling/studio-source/d13.blend",
+      "template": "dorm",
+      "facade": "west",
+      "doorOffset": -5.294,
+      "dimensions": [
+        15,
+        13,
+        16
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 35568,
+      "sha256": "b192eb6c0d0b78c8c1f262e6986acb8553110a5e890f936ebd6e1cccc646c446",
+      "standard": "/assets/campus/v5/d13.glb",
+      "standardSource": "modeling/source/d13.blend"
+    },
+    {
+      "buildingId": "d14",
+      "name": "南湖宿舍 14 栋",
+      "model": "/assets/campus/studio/d14.glb",
+      "source": "modeling/studio-source/d14.blend",
+      "template": "dorm",
+      "facade": "south",
+      "doorOffset": 0.697,
+      "dimensions": [
+        24,
+        15,
+        12
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 40336,
+      "sha256": "2490931e8a2781241eeb99fd60258322a9fa0a6dc6eaf7b7623b5ebf1f3aaba1",
+      "standard": "/assets/campus/v5/d14.glb",
+      "standardSource": "modeling/source/d14.blend"
+    },
+    {
+      "buildingId": "d15",
+      "name": "南湖宿舍 15 栋",
+      "model": "/assets/campus/studio/d15.glb",
+      "source": "modeling/studio-source/d15.blend",
+      "template": "dorm",
+      "facade": "south",
+      "doorOffset": 0.888,
+      "dimensions": [
+        20,
+        15,
+        13
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 37220,
+      "sha256": "8fe4ecd85f9ab8acf05e785233ec4280456c44b0e3c2dabd457197e3b196add7",
+      "standard": "/assets/campus/v5/d15.glb",
+      "standardSource": "modeling/source/d15.blend"
+    },
+    {
+      "buildingId": "hall",
+      "name": "南湖体育馆",
+      "model": "/assets/campus/studio/hall.glb",
+      "source": "modeling/studio-source/hall.blend",
+      "template": "hall",
+      "facade": "south",
+      "doorOffset": 0.576,
+      "dimensions": [
+        34,
+        12,
+        18
+      ],
+      "verification": "gis-interpretation",
+      "bytes": 17244,
+      "sha256": "9745e510c8bf0ea8e1c76a82ce2bf09de60507a028446aaceabb9e02f2f78492",
+      "standard": "/assets/campus/v5/hall.glb",
+      "standardSource": "modeling/source/hall.blend"
+    },
+    {
+      "buildingId": "d1",
+      "name": "南湖宿舍 1 栋",
+      "model": "/assets/campus/studio/d1.glb",
+      "source": "modeling/studio-source/d1.blend",
+      "template": "dorm",
+      "facade": "east",
+      "doorOffset": 0.0,
+      "dimensions": [
+        10,
+        12,
+        8
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 22164,
+      "sha256": "5d376e1aaf7809cb62a1cc4413f06a2900539ed6b900c8b2cc06eaa066fe4f0f",
+      "standard": "/assets/campus/v5/d1.glb",
+      "standardSource": "modeling/source/d1.blend"
+    },
+    {
+      "buildingId": "d2",
+      "name": "南湖宿舍 2 栋",
+      "model": "/assets/campus/studio/d2.glb",
+      "source": "modeling/studio-source/d2.blend",
+      "template": "dorm",
+      "facade": "east",
+      "doorOffset": 0.0,
+      "dimensions": [
+        14,
+        12,
+        8
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 24204,
+      "sha256": "ff843bdbfe17597945c34abfa59c5fb93b416b52f1e556fcd73dd8a9da5df20e",
+      "standard": "/assets/campus/v5/d2.glb",
+      "standardSource": "modeling/source/d2.blend"
+    },
+    {
+      "buildingId": "d3",
+      "name": "南湖宿舍 3 栋",
+      "model": "/assets/campus/studio/d3.glb",
+      "source": "modeling/studio-source/d3.blend",
+      "template": "dorm",
+      "facade": "east",
+      "doorOffset": 0.767,
+      "dimensions": [
+        17,
+        13,
+        10
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 27872,
+      "sha256": "105aa035e8da65d0b1aa94b6506c9f39f444d8ceff847e808da5ab76a6f0a791",
+      "standard": "/assets/campus/v5/d3.glb",
+      "standardSource": "modeling/source/d3.blend"
+    },
+    {
+      "buildingId": "d4",
+      "name": "南湖宿舍 4 栋",
+      "model": "/assets/campus/studio/d4.glb",
+      "source": "modeling/studio-source/d4.blend",
+      "template": "dorm",
+      "facade": "south",
+      "doorOffset": -0.523,
+      "dimensions": [
+        16,
+        11,
+        9
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 25404,
+      "sha256": "820e70c501a0c01f455de90b069945926126c4f012322d55e3d8f162a01a6d73",
+      "standard": "/assets/campus/v5/d4.glb",
+      "standardSource": "modeling/source/d4.blend"
+    },
+    {
+      "buildingId": "d5",
+      "name": "南湖宿舍 5 栋",
+      "model": "/assets/campus/studio/d5.glb",
+      "source": "modeling/studio-source/d5.blend",
+      "template": "dorm",
+      "facade": "north",
+      "doorOffset": 0.579,
+      "dimensions": [
+        19,
+        11,
+        9
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 27820,
+      "sha256": "07853fd9889ff8ff28f978c1e36d11e3f2188074c189945d50ef1b1ca18128ba",
+      "standard": "/assets/campus/v5/d5.glb",
+      "standardSource": "modeling/source/d5.blend"
+    },
+    {
+      "buildingId": "d6",
+      "name": "南湖宿舍 6 栋",
+      "model": "/assets/campus/studio/d6.glb",
+      "source": "modeling/studio-source/d6.blend",
+      "template": "dorm",
+      "facade": "east",
+      "doorOffset": 0.975,
+      "dimensions": [
+        12,
+        12,
+        9
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 23616,
+      "sha256": "11beeb79a720c918a1d4f010e03e5d8a21d474af96567bc050332f9e85a315ab",
+      "standard": "/assets/campus/v5/d6.glb",
+      "standardSource": "modeling/source/d6.blend"
+    },
+    {
+      "buildingId": "d7",
+      "name": "南湖宿舍 7 栋",
+      "model": "/assets/campus/studio/d7.glb",
+      "source": "modeling/studio-source/d7.blend",
+      "template": "dorm",
+      "facade": "east",
+      "doorOffset": 0.975,
+      "dimensions": [
+        13,
+        12,
+        8
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 23832,
+      "sha256": "f1609cb85793269200a5e47b0ef15ad52218a567a092c4a0591130bee1399bf3",
+      "standard": "/assets/campus/v5/d7.glb",
+      "standardSource": "modeling/source/d7.blend"
+    },
+    {
+      "buildingId": "d8",
+      "name": "南湖宿舍 8 栋",
+      "model": "/assets/campus/studio/d8.glb",
+      "source": "modeling/studio-source/d8.blend",
+      "template": "dorm",
+      "facade": "east",
+      "doorOffset": 0.558,
+      "dimensions": [
+        12,
+        12,
+        8
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 23464,
+      "sha256": "d36fce853376f1820e212e4944b1a360fa258617cacdc763bdac0b20e68a1149",
+      "standard": "/assets/campus/v5/d8.glb",
+      "standardSource": "modeling/source/d8.blend"
+    },
+    {
+      "buildingId": "d9",
+      "name": "南湖宿舍 9 栋",
+      "model": "/assets/campus/studio/d9.glb",
+      "source": "modeling/studio-source/d9.blend",
+      "template": "dorm",
+      "facade": "east",
+      "doorOffset": 0.419,
+      "dimensions": [
+        12,
+        12,
+        8
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 23140,
+      "sha256": "872f8e5d50e7292d6362fef1272a5d6d9fc0d6840617afa52525339eea1184a8",
+      "standard": "/assets/campus/v5/d9.glb",
+      "standardSource": "modeling/source/d9.blend"
+    },
+    {
+      "buildingId": "d10",
+      "name": "南湖宿舍 10 栋",
+      "model": "/assets/campus/studio/d10.glb",
+      "source": "modeling/studio-source/d10.blend",
+      "template": "dorm",
+      "facade": "east",
+      "doorOffset": 0.471,
+      "dimensions": [
+        13,
+        12,
+        9
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 23272,
+      "sha256": "406db53dd2d7e6a6df952ee83537e994e144e87d68e3e052808def97bd76eef8",
+      "standard": "/assets/campus/v5/d10.glb",
+      "standardSource": "modeling/source/d10.blend"
+    },
+    {
+      "buildingId": "youth",
+      "name": "南湖青年公寓",
+      "model": "/assets/campus/studio/youth.glb",
+      "source": "modeling/studio-source/youth.blend",
+      "template": "dorm",
+      "facade": "south",
+      "doorOffset": -5.0,
+      "dimensions": [
+        20,
+        17,
+        10
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 39596,
+      "sha256": "cf41cdd74778aecaceae53eab6a4d9fed09f931ac8c1e86ad851f9aecf1fade6",
+      "standard": "/assets/campus/v5/youth.glb",
+      "standardSource": "modeling/source/youth.blend"
+    },
+    {
+      "buildingId": "logistics",
+      "name": "南湖智慧物流中心",
+      "model": "/assets/campus/studio/logistics.glb",
+      "source": "modeling/studio-source/logistics.blend",
+      "template": "block",
+      "facade": "west",
+      "doorOffset": 3.6,
+      "dimensions": [
+        17,
+        8,
+        10
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 17292,
+      "sha256": "90b99e3ac859b01181e47fe579ac115a8e1c12b9df74ad3d32a99fb5c3e4af2a",
+      "standard": "/assets/campus/v5/logistics.glb",
+      "standardSource": "modeling/source/logistics.blend"
+    },
+    {
+      "buildingId": "training",
+      "name": "培训中心",
+      "model": "/assets/campus/studio/training.glb",
+      "source": "modeling/studio-source/training.blend",
+      "template": "block",
+      "facade": "north",
+      "doorOffset": 0.975,
+      "dimensions": [
+        16,
+        9,
+        13
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 21804,
+      "sha256": "8b197db1fbfae76148152b55b88b70407d874c1e391c7b879d87ed29bd242958",
+      "standard": "/assets/campus/v5/training.glb",
+      "standardSource": "modeling/source/training.blend"
+    },
+    {
+      "buildingId": "psych-lab",
+      "name": "心理学院实验基地",
+      "model": "/assets/campus/studio/psych-lab.glb",
+      "source": "modeling/studio-source/psych-lab.blend",
+      "template": "block",
+      "facade": "west",
+      "doorOffset": -0.61,
+      "dimensions": [
+        12,
+        8,
+        10
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 16080,
+      "sha256": "593a28b476bbe15775106a9566c33ea6c0d60ee99a84bd681177d8581ee37068",
+      "standard": "/assets/campus/v5/psych-lab.glb",
+      "standardSource": "modeling/source/psych-lab.blend"
+    },
+    {
+      "buildingId": "sport-lab",
+      "name": "体育学院实验基地",
+      "model": "/assets/campus/studio/sport-lab.glb",
+      "source": "modeling/studio-source/sport-lab.blend",
+      "template": "block",
+      "facade": "west",
+      "doorOffset": 0.517,
+      "dimensions": [
+        8,
+        7,
+        8
+      ],
+      "verification": "stylized-estimate",
+      "bytes": 14496,
+      "sha256": "6535a1a0f1ce51679b44868cceb4929e6c28f9bb9da0395422ee740345315927",
+      "standard": "/assets/campus/v5/sport-lab.glb",
+      "standardSource": "modeling/source/sport-lab.blend"
+    }
+  ]
+}

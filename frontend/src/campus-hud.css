@@ -1,0 +1,45 @@
+
+/* Shared warm paper and ink palette for the campus HUD. */
+:root{
+  --campus-ink:#34483e;
+  --campus-paper:#fff9ef;
+  --campus-line:#e3d8c7;
+  --campus-green:#34594c;
+  --campus-copper:#b77353;
+}
+body{font-family:"Microsoft YaHei UI","PingFang SC","Noto Sans CJK SC",system-ui,sans-serif;background:#f1eadf;color:var(--campus-ink)}
+.topbar{background:#fffaf2;border-color:var(--campus-line)}
+.brand strong{letter-spacing:.075em}
+.topbar nav button.active{background:#e9eee5;border-color:#dae5d8}
+.sidebar{background:var(--campus-paper);border-color:var(--campus-line)}
+.sidebar h1{color:#34594c;letter-spacing:.025em}
+.sidebar .place-row.active{background:#e9eee4;border-color:#d8e3d7}
+.sidebar .place-row:hover{border-color:#d4e1d5}
+.context,.route-strip,.minimap{background:#fff9efef;border:1px solid #fdf5e6;box-shadow:0 10px 28px #504a3020}
+.context{border-radius:16px}
+.map-chip,.view-controls button,.quality-control{background:#fff9eff2;border:1px solid #e3d8c7}
+.view-controls{align-items:center}
+.quality-control{display:inline-flex;align-items:center;gap:4px;padding:3px 5px;border-radius:8px;font-size:.72rem;white-space:nowrap}
+.quality-control select{background:#fbf7eb;border-color:#e3d8c7;padding:2px 5px;color:var(--campus-ink);font:inherit;min-height:24px}
+.map-label{
+  visibility:hidden;display:inline-flex;gap:6px;align-items:center;padding:.31rem .5rem;
+  background:#f9f3e2f0;color:#34483e;border:1px solid #7f927f80;
+  border-radius:5px;box-shadow:0 2px 6px #4c49382a;letter-spacing:.015em;
+}
+.map-label i{border-radius:2px;transform:rotate(45deg);width:.36rem;height:.36rem}
+.map-label[data-poi-state="selected"]{background:#f8dca9;border-color:#b98254;color:#503930}
+.map-label[data-poi-state="hovered"]{background:#fff9e6;border-color:#77917b}
+.map-label:focus-visible,.minimap button:focus-visible,.view-controls button:focus-visible,.quality-control select:focus-visible{outline:2px solid #b66a42;outline-offset:2px}
+.minimap button{background:none;border:none;padding:0;color:var(--campus-green);font:inherit;text-align:left}
+.minimap svg{background:#edf0dd}
+@media(max-width:740px){
+ .map-view .view-controls{left:7px;right:7px;top:59px;flex-wrap:wrap;gap:3px}
+ .view-controls .quality-control{font-size:.6rem;padding:2px 4px}
+ .view-controls .quality-control select{min-height:21px}
+ .map-label{font-size:.58rem;padding:.23rem .35rem}
+ .sidebar{top:105px}
+ .render-metrics,.map-view.is-walking .render-metrics{top:122px}
+}
+@media(prefers-reduced-motion:reduce){
+ .map-label,.context,.view-controls button{animation:none;transition:none}
+}

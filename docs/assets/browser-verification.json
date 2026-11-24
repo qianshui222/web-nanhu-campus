@@ -1,0 +1,190 @@
+{
+  "revision": 11,
+  "loadedMs": 1138,
+  "resources": [
+    {
+      "name": "/assets/campus/v5/complex.glb",
+      "bytes": 31408,
+      "duration": 12
+    },
+    {
+      "name": "/assets/campus/v5/library.glb",
+      "bytes": 8548,
+      "duration": 12
+    },
+    {
+      "name": "/assets/campus/v5/canteen.glb",
+      "bytes": 18640,
+      "duration": 12
+    },
+    {
+      "name": "/assets/campus/v5/d11.glb",
+      "bytes": 16328,
+      "duration": 12
+    },
+    {
+      "name": "/assets/campus/v5/d12.glb",
+      "bytes": 16736,
+      "duration": 12
+    },
+    {
+      "name": "/assets/campus/v5/d13.glb",
+      "bytes": 17104,
+      "duration": 12
+    },
+    {
+      "name": "/assets/campus/v5/d14.glb",
+      "bytes": 18568,
+      "duration": 23
+    },
+    {
+      "name": "/assets/campus/v5/d15.glb",
+      "bytes": 17900,
+      "duration": 25
+    },
+    {
+      "name": "/assets/campus/v5/hall.glb",
+      "bytes": 10432,
+      "duration": 24
+    },
+    {
+      "name": "/assets/campus/v5/d1.glb",
+      "bytes": 11932,
+      "duration": 17
+    },
+    {
+      "name": "/assets/campus/v5/d2.glb",
+      "bytes": 13460,
+      "duration": 16
+    },
+    {
+      "name": "/assets/campus/v5/d3.glb",
+      "bytes": 14688,
+      "duration": 16
+    },
+    {
+      "name": "/assets/campus/v5/d4.glb",
+      "bytes": 13968,
+      "duration": 23
+    },
+    {
+      "name": "/assets/campus/v5/d5.glb",
+      "bytes": 15448,
+      "duration": 29
+    },
+    {
+      "name": "/assets/campus/v5/d6.glb",
+      "bytes": 13116,
+      "duration": 28
+    },
+    {
+      "name": "/assets/campus/v5/d7.glb",
+      "bytes": 12352,
+      "duration": 28
+    },
+    {
+      "name": "/assets/campus/v5/d8.glb",
+      "bytes": 12408,
+      "duration": 27
+    },
+    {
+      "name": "/assets/campus/v5/d9.glb",
+      "bytes": 12344,
+      "duration": 28
+    },
+    {
+      "name": "/assets/campus/v5/d10.glb",
+      "bytes": 13124,
+      "duration": 29
+    },
+    {
+      "name": "/assets/campus/v5/youth.glb",
+      "bytes": 17828,
+      "duration": 34
+    },
+    {
+      "name": "/assets/campus/v5/logistics.glb",
+      "bytes": 10896,
+      "duration": 35
+    },
+    {
+      "name": "/assets/campus/v5/training.glb",
+      "bytes": 11992,
+      "duration": 35
+    },
+    {
+      "name": "/assets/campus/v5/psych-lab.glb",
+      "bytes": 9920,
+      "duration": 35
+    },
+    {
+      "name": "/assets/campus/v5/sport-lab.glb",
+      "bytes": 9400,
+      "duration": 35
+    },
+    {
+      "name": "/assets/decoders/draco/draco_decoder.wasm",
+      "bytes": 192420,
+      "duration": 9
+    }
+  ],
+  "buildingIds": [
+    "canteen",
+    "complex",
+    "d1",
+    "d10",
+    "d11",
+    "d12",
+    "d13",
+    "d14",
+    "d15",
+    "d2",
+    "d3",
+    "d4",
+    "d5",
+    "d6",
+    "d7",
+    "d8",
+    "d9",
+    "hall",
+    "library",
+    "logistics",
+    "psych-lab",
+    "sport-lab",
+    "training",
+    "youth"
+  ],
+  "errors": [],
+  "requestErrors": [],
+  "canteen": {
+    "entry": {
+      "id": "canteen-in",
+      "x": -16.467,
+      "z": -35.383
+    },
+    "forecourt": {
+      "id": "canteen-forecourt",
+      "x": -19,
+      "z": -29
+    },
+    "routeMeters": 109.8,
+    "spur": "canteen-door-spur",
+    "spawn": {
+      "x": -19,
+      "z": -29
+    },
+    "collisionStop": {
+      "x": -16.28892671537716,
+      "z": -35.83173342903578
+    }
+  },
+  "passed": [
+    "逐栋加载",
+    "静态资源请求",
+    "复用本地 Draco",
+    "搜索与模型子部件拾取",
+    "第一人称入口与碰撞",
+    "新入口导航",
+    "故障提示及重试"
+  ]
+}

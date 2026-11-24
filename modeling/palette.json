@@ -1,0 +1,37 @@
+{
+  "color": {
+    "plinth": "#8f9589",
+    "concrete": "#c8c7b6",
+    "shell-light": "#b5bdb1",
+    "stone": "#dddbc8",
+    "parapet": "#e3e1ce",
+    "roof": "#76827a",
+    "brick": "#ab755a",
+    "brick-accent": "#ca9270",
+    "metal": "#94a39c",
+    "green-roof": "#74946b",
+    "frame": "#6f827c",
+    "window": "#607e82",
+    "blue-glass": "#408395",
+    "vestibule": "#41615f",
+    "paving": "#afab95"
+  },
+  "surface": {
+    "form": {
+      "roughness": 0.85,
+      "metallic": 0.02
+    },
+    "relief": {
+      "roughness": 0.78,
+      "metallic": 0.03
+    },
+    "glaze": {
+      "roughness": 0.38,
+      "metallic": 0.14
+    },
+    "glowing": {
+      "roughness": 0.4,
+      "metallic": 0.1
+    }
+  }
+}

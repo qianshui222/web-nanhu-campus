@@ -1,0 +1,8 @@
+node_modules/
+dist/
+target/
+runtime/
+static-build/
+.tools/
+*.log
+.env

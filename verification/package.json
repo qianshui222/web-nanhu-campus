@@ -1,0 +1,6 @@
+{
+  "name": "nanhu-verification",
+  "private": true,
+  "scripts": {"api": "node accept-api.cjs", "browser": "node accept-ui.cjs", "revision": "node accept-revision.cjs", "environment": "node accept-environment.cjs"},
+  "devDependencies": {"playwright": "1.56.1"}
+}

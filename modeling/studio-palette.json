@@ -1,0 +1,42 @@
+{
+  "color": {
+    "foundation": "#b4a590",
+    "stone": "#d1c2a8",
+    "cap": "#e9dbc1",
+    "roof": "#73898c",
+    "roof-light": "#91a2a1",
+    "brick": "#b78366",
+    "brick-dark": "#895f55",
+    "brick-light": "#cb9c7e",
+    "sand": "#c7aa90",
+    "concrete": "#a29d8b",
+    "glass-cool": "#66858d",
+    "glass-muted": "#789299",
+    "glass-light": "#83a1a4",
+    "frame": "#699290",
+    "sill": "#b3b6a0",
+    "shadow-band": "#968982",
+    "soffit": "#846f59",
+    "blue-trim": "#5e9b9f",
+    "planted": "#859871",
+    "parapet": "#e0d7ba"
+  },
+  "surface": {
+    "form": {
+      "roughness": 0.88,
+      "metallic": 0.01
+    },
+    "relief": {
+      "roughness": 0.74,
+      "metallic": 0.03
+    },
+    "glaze": {
+      "roughness": 0.34,
+      "metallic": 0.18
+    },
+    "glowing": {
+      "roughness": 0.37,
+      "metallic": 0.08
+    }
+  }
+}

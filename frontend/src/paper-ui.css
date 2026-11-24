@@ -1,0 +1,176 @@
+/* Paper controls frame the live viewport without covering the canvas. */
+.app-shell {
+  --paper: #fff7e6;
+  --paper-white: #fffdf7;
+  --ink: #253632;
+  --paper-line: #d8cdb5;
+  --lagoon: #08b0bf;
+  --persimmon: #ee6a28;
+  --header-height: 61px;
+  color: var(--ink);
+}
+.topbar {
+  height: var(--header-height);
+  padding-inline: max(env(safe-area-inset-left), clamp(15px, 3vw, 48px)) max(env(safe-area-inset-right), clamp(15px, 3vw, 48px));
+  background: var(--paper);
+  border-bottom: 1px solid var(--paper-line);
+}
+.topbar .brand { display: flex; align-items: center; gap: 16px; padding: 0; flex-shrink: 0 }
+.brand img { display: block; width: 122px; height: auto }
+.topbar .brand small { font-size: .69rem; margin: 0; color: #5a6558 }
+.topbar nav button, .topbar .account button {
+  min-height: 36px;
+  border-radius: 7px 9px 6px 8px;
+  color: var(--ink);
+}
+.topbar nav button.active { background: #e1f2ee; border-color: #b4d5c9 }
+.topbar .account .paper-menu-button { display: inline-flex; align-items: center; gap: 5px; background: var(--ink); color: #fffdf5; border-color: var(--ink) }
+.topbar .account .paper-menu-button:hover { background: #3c554b }
+.paper-menu-button svg { width: 17px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-width: 1.65 }
+.paper-workspace.workspace { display: block; position: relative; height: calc(100dvh - var(--header-height)); min-height: 0 }
+.paper-intro {
+  position: absolute;
+  top: clamp(20px, 4.2vh, 48px);
+  left: clamp(16px, 4vw, 60px);
+  max-width: calc(100% - 32px);
+  pointer-events: none;
+}
+.paper-intro h1 {
+  font-family: "KaiTi", "STKaiti", "Noto Serif CJK SC", Georgia, serif;
+  font-size: clamp(1.9rem, 3.35vw, 3.5rem);
+  letter-spacing: .065em;
+  font-weight: 700;
+  line-height: 1.2;
+  text-shadow: 0 1px 2px #fff8e6;
+  margin: 0 0 17px;
+}
+.paper-actions { display: flex; gap: clamp(5px, 1vw, 15px) }
+.paper-action {
+  display: inline-flex;
+  gap: 7px;
+  min-width: 118px;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  isolation: isolate;
+  padding: 0 10px 6px;
+  pointer-events: auto;
+  font-size: .88rem;
+  font-weight: 750;
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--ink);
+  background: transparent !important;
+  border: 0;
+  box-shadow: none;
+  transition: translate 180ms ease;
+}
+.paper-action:first-child { --bubble: #fff0dc; --bubble-icon: color-mix(in srgb, var(--persimmon), #462712 48%) }
+.paper-action:nth-child(2) { --bubble-icon: color-mix(in srgb, var(--lagoon), var(--ink) 47%) }
+.paper-action:hover { translate: 0 -3px }
+.paper-action:active { translate: 0 1px }
+.paper-action:disabled { opacity: .55 }
+.paper-action-active { --bubble: #f9dfb7 }
+.paper-bubble { position: absolute; z-index: -1; inset: 0; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(1px 2px 0 #293a3430) }
+.paper-bubble path { stroke: var(--ink); fill: var(--bubble, var(--paper-white)); stroke-width: 1.7; vector-effect: non-scaling-stroke }
+.paper-action-icon { flex: 0 0 17px; height: 17px; stroke: var(--bubble-icon, var(--ink)); stroke-width: 1.55; stroke-linecap: round; stroke-linejoin: round; fill: none }
+.paper-workspace .map-view .view-controls { left: auto; right: clamp(12px, 2vw, 28px); top: 17px; gap: 5px; justify-content: flex-end; flex-wrap: nowrap }
+.paper-workspace .view-controls button, .paper-workspace .quality-control {
+  min-height: 34px;
+  background: var(--paper-white);
+  border: 1px solid var(--paper-line);
+  border-radius: 7px;
+  color: var(--ink);
+  padding: 5px 8px;
+  white-space: nowrap;
+}
+.paper-workspace .view-controls button:hover { border-color: #0c777b }
+.paper-workspace .quality-control { gap: 4px }
+.paper-workspace .quality-control select { min-height: 22px; padding: 0 3px }
+.paper-workspace .context { top: 63px; right: clamp(12px, 2vw, 28px); max-height: calc(100% - 260px); background: var(--paper); border-color: var(--paper-line); border-radius: 11px 14px 9px 13px }
+.paper-workspace .minimap { bottom: 17px; right: clamp(12px, 2vw, 28px); width: 141px; border-color: var(--paper-line); border-radius: 10px; background: var(--paper-white) }
+.paper-workspace .minimap-closed { width: auto }
+.paper-workspace .minimap-closed > div { padding-bottom: 0; gap: 11px }
+.paper-workspace .minimap button { min-height: 25px; font-size: .72rem }
+.paper-workspace .minimap button span { color: #925034; margin-left: 4px }
+.paper-workspace .render-metrics { top: 64px; left: auto; right: clamp(12px, 2vw, 28px); z-index: 3 }
+.paper-workspace:has(.context) .render-metrics { right: min(400px, 42vw) }
+.paper-workspace .map-label { border-radius: 4px 6px 4px 6px; border-color: #fffaf0; background: #fff8e9f5; font-weight: 650 }
+.paper-workspace .map-label i { width: 5px; height: 5px; border-radius: 1px; transform: rotate(45deg) }
+.paper-workspace .map-label:is([data-poi-state="selected"],[data-poi-state="hovered"],:hover) { background: #ffecd2; border-color: #955431; color: #422f25 }
+.paper-workspace .map-key { bottom: 13px; color: #3a5147 }
+.paper-workspace .is-walking .walk-hint { left: 20px; top: auto; bottom: 39px }
+.paper-workspace .hover-hint { top: auto; bottom: 39px }
+.paper-dialog {
+  border: 1px solid var(--ink);
+  border-radius: 15px 10px 17px 11px;
+  padding: 0;
+  width: min(370px, calc(100% - 28px));
+  max-height: min(650px, calc(100dvh - 95px));
+  margin: calc(var(--header-height) + 10px) 18px auto auto;
+  color: var(--ink);
+  background: var(--paper);
+  box-shadow: 4px 5px 0 #25363238;
+  overflow: auto;
+}
+.paper-dialog[open] { animation: paper-unfold 290ms cubic-bezier(.2,.8,.2,1) both }
+@keyframes paper-unfold { from { opacity: 0; translate: 0 -13px } to { opacity: 1; translate: 0 0 } }
+.paper-dialog::backdrop { background: #263a3155 }
+.paper-dialog-content { padding: 16px; min-height: 0 }
+.paper-dialog-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 12px }
+.paper-dialog h2 { margin: 0; font: 700 1.45rem/1.2 "KaiTi", "STKaiti", "Noto Serif CJK SC", serif }
+.paper-dismiss { width: 36px; height: 36px; padding: 0; background: var(--paper-white); color: var(--ink); font: 1.45rem/1 Georgia, serif }
+.paper-sheet { width: min(350px, calc(100% - 28px)); height: min(720px, calc(100dvh - 84px)); max-height: none; margin: calc(var(--header-height) + 10px) auto auto 17px; overflow: hidden }
+.paper-sheet[open] { animation-name: paper-slide }
+@keyframes paper-slide { from { opacity: 0; translate: -24px 0 } to { opacity: 1; translate: 0 0 } }
+.paper-sheet .paper-dialog-content { display: flex; flex-direction: column; height: 100% }
+.paper-sheet .sidebar-head { padding: 0 0 10px }
+.paper-sheet .place-list { padding: 0 0 8px; min-height: 0 }
+.paper-sheet .place-row.active { background: #e1f2ee; border-color: #b4d5c9 }
+.paper-sheet .sidebar-bottom { border-color: var(--paper-line); padding: 12px 0 0 }
+.paper-sheet .quick-links button { min-height: 32px }
+.paper-link-list { display: grid; gap: 7px }
+.paper-link-list button { text-align: left; border-radius: 7px; background: var(--paper-white); min-height: 39px }
+.paper-link-list button:hover { border-color: #0c777b }
+.paper-guide dl,.paper-status { margin: 0 }
+.paper-guide dl>div, .paper-status>div { padding: 10px 0; border-top: 1px dashed var(--paper-line) }
+.paper-guide dt { font-weight: 750 }
+.paper-guide dd { margin: 4px 0 0; font-size: .86rem; line-height: 1.6 }
+.paper-status { margin-top: 13px; font-size: .8rem }
+.paper-status>div { display: flex; gap: 14px; justify-content: space-between }
+.paper-status dd { margin: 0; text-align: right }
+.app-shell :is(.paper-action,.paper-dialog button,.topbar button):focus-visible { outline: 2px solid #0c777b; outline-offset: 3px }
+@media (max-width: 920px) { .topbar .brand small { display: none } }
+@media (max-width: 740px) {
+  .app-shell { --header-height: 55px }
+  .topbar nav { display: none }
+  .topbar .account { gap: 6px; font-size: .75rem }
+  .topbar .account button { padding-inline: 9px }
+  .brand img { width: 111px }
+  .paper-intro { top: 23px }
+  .paper-intro h1 { font-size: clamp(1.5rem, 6.5vw, 2.15rem); margin-bottom: 7px }
+  .paper-action { min-width: 0; width: clamp(85px, 25vw, 111px); height: 44px; gap: 4px; font-size: .75rem }
+  .paper-action-icon { flex-basis: 13px; height: 13px }
+  .paper-workspace .map-view .view-controls { top: 111px; left: auto; right: 10px }
+  .paper-workspace .map-view.is-walking .view-controls { top: 72px }
+  .paper-workspace .view-controls button, .paper-workspace .quality-control { min-height: 31px }
+  .paper-workspace .context { top: auto; bottom: 63px; right: 8px; width: min(380px, calc(100% - 16px)); max-height: min(48%, calc(100% - 154px)); z-index: 3 }
+  .paper-workspace .context:has(.algorithm-stats) { width: min(380px, calc(100% - 16px)) }
+  .paper-workspace:has(.route-strip) .context { bottom: 125px }
+  .paper-workspace .route-strip { bottom: 47px; left: 8px; width: min(380px, calc(100% - 16px)) }
+  .paper-workspace .minimap { width: 116px; bottom: 10px; right: 8px }
+  .paper-workspace .minimap-closed { width: auto }
+  .paper-workspace .map-key { bottom: 18px; left: 8px }
+  .paper-workspace .render-metrics, .paper-workspace:has(.context) .render-metrics { top: 151px; right: 8px }
+  .paper-sheet { height: min(640px, 83dvh); width: 100%; max-width: 100%; margin: auto 0 0; padding-bottom: env(safe-area-inset-bottom); border-radius: 19px 15px 0 0 }
+  @keyframes paper-slide { from { opacity: 0; translate: 0 26px } to { opacity: 1; translate: 0 0 } }
+}
+@media (max-height: 520px) {
+  .paper-workspace .context { max-height: 57% }
+  .paper-intro { top: 12px }
+}
+@media (prefers-reduced-motion: reduce) {
+  .paper-dialog[open], .paper-sheet[open] { animation: none }
+  .paper-action { transition: none }
+}

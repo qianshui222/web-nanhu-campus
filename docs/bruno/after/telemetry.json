@@ -1,0 +1,14 @@
+{
+  "revision": 1,
+  "telemetry": {
+    "ids": "library,canteen,d13,d12,complex,d11,d2,d1,d3,d15,hall,d14,d6,d4,d8,d9,d7,d5,d10,psych-lab,logistics,training,sport-lab,youth",
+    "loaded": "24",
+    "metrics": [
+      "6 FPS · 109 绘制调用",
+      "87,396 三角面 · 72 几何 · 3 纹理",
+      "实体建筑 24/24",
+      "Blender 资产 24/24"
+    ]
+  },
+  "errors": []
+}

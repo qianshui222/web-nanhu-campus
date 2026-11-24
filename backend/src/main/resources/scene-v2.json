@@ -1,0 +1,958 @@
+{
+  "version": 1,
+  "places": [
+    {
+      "id": "complex",
+      "name": "南湖综合楼",
+      "type": "teaching",
+      "x": 71,
+      "z": -91,
+      "w": 98,
+      "d": 30,
+      "h": 31,
+      "floors": 11,
+      "color": "#c8c7b7",
+      "entry": "complex-in",
+      "description": "教学、实验及学院办公集中于此。建筑主楼地上十一层。",
+      "style": "complex",
+      "angle": 0,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": "https://news.ccnu.edu.cn/virtual_attach_file.vsb?afc=KLz9O4nzG4UzvYnx7-DMRr2nm7YM4UJaMNV2nl7Zo7QRLmL0gihFp2hmCIa0U1hkLShVokh7LRvPL7Wfo7M2UzAkLRC4nlUiL7VRolLiUlrFnmfVnzLPMmMFLz6kLmlJv2bjo4OeoDAN_j9YLR-8gDTJQty0LzGaL1y4M4vPgtA8pU0cc&oid=2031230453&tid=1002&nid=3771&e=.png"
+    },
+    {
+      "id": "library",
+      "name": "南湖图书馆入口",
+      "type": "library",
+      "x": 73,
+      "z": -50,
+      "w": 24,
+      "d": 47,
+      "h": 6,
+      "floors": 1,
+      "color": "#d9af71",
+      "entry": "library-in",
+      "description": "与南湖教学实验综合楼相接的低层分馆翼楼。入口面向南侧广场，导览与建筑编号继续关联综合楼。",
+      "style": "annex",
+      "angle": 0,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": "",
+      "parent": "complex"
+    },
+    {
+      "id": "canteen",
+      "name": "南湖食堂",
+      "type": "food",
+      "x": -19,
+      "z": -43,
+      "w": 34,
+      "d": 22,
+      "h": 10,
+      "floors": 3,
+      "color": "#b28f6b",
+      "entry": "canteen-in",
+      "description": "一层大伙食堂、二层特色餐饮、三层教工餐及包房。",
+      "style": "canteen",
+      "angle": -3,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": ""
+    },
+    {
+      "id": "d11",
+      "name": "南湖宿舍 11 栋",
+      "type": "housing",
+      "x": -11,
+      "z": 84,
+      "w": 22,
+      "d": 13,
+      "h": 13,
+      "floors": 5,
+      "color": "#a0aaa0",
+      "entry": "d11-in",
+      "description": "南湖学生宿舍 11 栋。官方 GIS 将其标在运动场东南方向、水岸西侧；地上五层。",
+      "style": "dorm",
+      "angle": 7,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": ""
+    },
+    {
+      "id": "d12",
+      "name": "南湖宿舍 12 栋",
+      "type": "housing",
+      "x": -100,
+      "z": 115,
+      "w": 17,
+      "d": 12,
+      "h": 15,
+      "floors": 6,
+      "color": "#a2afa9",
+      "entry": "d12-in",
+      "description": "南湖学生宿舍。",
+      "style": "dorm",
+      "angle": 4,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": ""
+    },
+    {
+      "id": "d13",
+      "name": "南湖宿舍 13 栋",
+      "type": "housing",
+      "x": -97,
+      "z": 92,
+      "w": 15,
+      "d": 16,
+      "h": 13,
+      "floors": 6,
+      "color": "#a0abac",
+      "entry": "d13-in",
+      "description": "南湖学生宿舍。",
+      "style": "dorm",
+      "angle": 2,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": ""
+    },
+    {
+      "id": "d14",
+      "name": "南湖宿舍 14 栋",
+      "type": "housing",
+      "x": 0,
+      "z": 42,
+      "w": 24,
+      "d": 12,
+      "h": 15,
+      "floors": 6,
+      "color": "#b2b5a6",
+      "entry": "d14-in",
+      "description": "南湖学生宿舍。",
+      "style": "dorm",
+      "angle": -5,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": ""
+    },
+    {
+      "id": "d15",
+      "name": "南湖宿舍 15 栋",
+      "type": "housing",
+      "x": -13,
+      "z": -8,
+      "w": 20,
+      "d": 13,
+      "h": 15,
+      "floors": 6,
+      "color": "#a8ad9c",
+      "entry": "d15-in",
+      "description": "南湖学生宿舍。",
+      "style": "dorm",
+      "angle": -6,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": ""
+    },
+    {
+      "id": "hall",
+      "name": "南湖体育馆",
+      "type": "sports",
+      "x": -53,
+      "z": 14,
+      "w": 36,
+      "d": 18,
+      "h": 12,
+      "floors": 2,
+      "color": "#a2b5ae",
+      "entry": "hall-in",
+      "description": "体育学院公开活动通知列出的南湖校区比赛场地。",
+      "style": "hall",
+      "angle": -3,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": ""
+    },
+    {
+      "id": "court",
+      "name": "南湖室外篮球场",
+      "type": "sports",
+      "x": -30,
+      "z": 69,
+      "w": 15,
+      "d": 39,
+      "h": 0,
+      "floors": 1,
+      "color": "#557c64",
+      "entry": "court-in",
+      "description": "南湖校区室外篮球活动场地。",
+      "style": "court",
+      "angle": 0,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": ""
+    },
+    {
+      "id": "gate",
+      "name": "南湖校区北门",
+      "type": "service",
+      "x": 76,
+      "z": -138,
+      "w": 0,
+      "d": 0,
+      "h": 0,
+      "floors": 1,
+      "color": "#47876d",
+      "entry": "gate-in",
+      "description": "学校新生报到指南列出的迎新点。",
+      "style": "service",
+      "angle": 0,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": ""
+    },
+    {
+      "id": "east",
+      "name": "南湖校区东门",
+      "type": "service",
+      "x": 135,
+      "z": -104,
+      "w": 0,
+      "d": 0,
+      "h": 0,
+      "floors": 1,
+      "color": "#47876d",
+      "entry": "east-in",
+      "description": "学校新生报到指南列出的迎新点。",
+      "style": "service",
+      "angle": 0,
+      "service": "现场公告为准",
+      "updated": "课程项目初始资料",
+      "photo": ""
+    },
+    {
+      "id": "west",
+      "name": "南湖校区西门",
+      "type": "service",
+      "x": -103,
+      "z": 29,
+      "w": 0,
+      "d": 0,
+      "h": 0,
+      "floors": 1,
+      "color": "#47876d",
+      "entry": "west-in",
+      "description": "西侧通行口取自会务图与官方 GIS 对照的示意位置。当前开放以现场为准。",
+      "style": "service",
+      "angle": 0,
+      "service": "现场公告为准",
+      "updated": "ICET 2024 会务图，坐标为估算",
+      "photo": ""
+    },
+    {
+      "id": "track",
+      "name": "南湖运动场",
+      "type": "sports",
+      "x": -70,
+      "z": 76,
+      "w": 35,
+      "d": 56,
+      "h": 0,
+      "floors": 1,
+      "color": "#ae745c",
+      "entry": "track-in",
+      "description": "2024 年会务地图标注的南湖运动场。设田径活动区域。",
+      "style": "track",
+      "angle": 0,
+      "service": "现场公告为准",
+      "updated": "ICET 2024 会务图，坐标为估算",
+      "photo": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "gate-in",
+      "x": 76,
+      "z": -138
+    },
+    {
+      "id": "A",
+      "x": 76,
+      "z": -124
+    },
+    {
+      "id": "B",
+      "x": 130,
+      "z": -124
+    },
+    {
+      "id": "C",
+      "x": 130,
+      "z": -104
+    },
+    {
+      "id": "east-in",
+      "x": 135,
+      "z": -104
+    },
+    {
+      "id": "D",
+      "x": 130,
+      "z": -28
+    },
+    {
+      "id": "L",
+      "x": 94,
+      "z": -23
+    },
+    {
+      "id": "Q",
+      "x": 89,
+      "z": -24
+    },
+    {
+      "id": "P",
+      "x": 10,
+      "z": -30
+    },
+    {
+      "id": "W",
+      "x": 10,
+      "z": -124
+    },
+    {
+      "id": "complex-in",
+      "x": 99,
+      "z": -74
+    },
+    {
+      "id": "library-in",
+      "x": 73,
+      "z": -25.5
+    },
+    {
+      "id": "M",
+      "x": 11,
+      "z": -15
+    },
+    {
+      "id": "S",
+      "x": 15,
+      "z": 6
+    },
+    {
+      "id": "canteen-in",
+      "x": -19,
+      "z": -29
+    },
+    {
+      "id": "W2",
+      "x": -45,
+      "z": -29.8
+    },
+    {
+      "id": "J",
+      "x": -45,
+      "z": -28
+    },
+    {
+      "id": "K",
+      "x": -32,
+      "z": 3
+    },
+    {
+      "id": "H1",
+      "x": -31,
+      "z": 28
+    },
+    {
+      "id": "H2",
+      "x": -16,
+      "z": 28
+    },
+    {
+      "id": "R",
+      "x": -16,
+      "z": 54
+    },
+    {
+      "id": "d14-in",
+      "x": 0,
+      "z": 50
+    },
+    {
+      "id": "hall-in",
+      "x": -53,
+      "z": 25
+    },
+    {
+      "id": "H3",
+      "x": -79,
+      "z": 25
+    },
+    {
+      "id": "X",
+      "x": -91,
+      "z": 37
+    },
+    {
+      "id": "X2",
+      "x": -29,
+      "z": 41
+    },
+    {
+      "id": "court-in",
+      "x": -30,
+      "z": 47
+    },
+    {
+      "id": "T",
+      "x": -102,
+      "z": 38
+    },
+    {
+      "id": "west-in",
+      "x": -103,
+      "z": 29
+    },
+    {
+      "id": "U",
+      "x": -108,
+      "z": 82
+    },
+    {
+      "id": "V",
+      "x": -108,
+      "z": 107
+    },
+    {
+      "id": "Y",
+      "x": -108,
+      "z": 86
+    },
+    {
+      "id": "d13-in",
+      "x": -105.5,
+      "z": 87
+    },
+    {
+      "id": "d12-in",
+      "x": -100,
+      "z": 107
+    },
+    {
+      "id": "Z",
+      "x": -91,
+      "z": 107
+    },
+    {
+      "id": "track-in",
+      "x": -65,
+      "z": 46
+    },
+    {
+      "id": "R2",
+      "x": -16,
+      "z": 44
+    },
+    {
+      "id": "D15a",
+      "x": -13,
+      "z": 4
+    },
+    {
+      "id": "d15-in",
+      "x": -13,
+      "z": 0.5
+    },
+    {
+      "id": "F",
+      "x": -15,
+      "z": 64
+    },
+    {
+      "id": "G",
+      "x": -11,
+      "z": 70
+    },
+    {
+      "id": "d11-in",
+      "x": -11,
+      "z": 76
+    },
+    {
+      "id": "P1",
+      "x": 43,
+      "z": -23
+    },
+    {
+      "id": "SportsFork",
+      "x": -29.59,
+      "z": 44.55
+    }
+  ],
+  "edges": [
+    {
+      "id": "gate-in--A",
+      "a": "gate-in",
+      "b": "A",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "A--B",
+      "a": "A",
+      "b": "B",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "B--C",
+      "a": "B",
+      "b": "C",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "C--east-in",
+      "a": "C",
+      "b": "east-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "C--D",
+      "a": "C",
+      "b": "D",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "D--L",
+      "a": "D",
+      "b": "L",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "L--Q",
+      "a": "L",
+      "b": "Q",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "Q--P",
+      "a": "Q",
+      "b": "P1",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "A--W",
+      "a": "A",
+      "b": "W",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "W--P",
+      "a": "W",
+      "b": "P",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "P--M",
+      "a": "P",
+      "b": "M",
+      "open": true,
+      "stairs": true
+    },
+    {
+      "id": "M--S",
+      "a": "M",
+      "b": "S",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "Q--complex-in",
+      "a": "Q",
+      "b": "complex-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "L--library-in",
+      "a": "Q",
+      "b": "library-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "M--canteen-in",
+      "a": "M",
+      "b": "canteen-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "canteen-in--J",
+      "a": "canteen-in",
+      "b": "J",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "P--W2",
+      "a": "P",
+      "b": "W2",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "W2--J",
+      "a": "W2",
+      "b": "J",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "J--K",
+      "a": "J",
+      "b": "K",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "K--S",
+      "a": "K",
+      "b": "S",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "K--H1",
+      "a": "K",
+      "b": "H1",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "H1--H2",
+      "a": "H1",
+      "b": "H2",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "H2--R",
+      "a": "H2",
+      "b": "R",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "R--d14-in",
+      "a": "R",
+      "b": "d14-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "H1--hall-in",
+      "a": "H1",
+      "b": "hall-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "hall-in--H3",
+      "a": "hall-in",
+      "b": "H3",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "H3--X",
+      "a": "H3",
+      "b": "X",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "X--court-in",
+      "a": "X",
+      "b": "X2",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "court-in--T",
+      "a": "X",
+      "b": "T",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "T--west-in",
+      "a": "T",
+      "b": "west-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "west-in--U",
+      "a": "west-in",
+      "b": "U",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "U--V",
+      "a": "U",
+      "b": "V",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "V--d12-in",
+      "a": "V",
+      "b": "d12-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "d12-in--Z",
+      "a": "d12-in",
+      "b": "Z",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "U--Y",
+      "a": "U",
+      "b": "Y",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "Y--d13-in",
+      "a": "Y",
+      "b": "d13-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "R--track-in",
+      "a": "R",
+      "b": "R2",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "K--D15a",
+      "a": "K",
+      "b": "D15a",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "D15a--d15-in",
+      "a": "D15a",
+      "b": "d15-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "K--F",
+      "a": "R",
+      "b": "F",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "F--G",
+      "a": "F",
+      "b": "G",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "G--d11-in",
+      "a": "G",
+      "b": "d11-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "X2--court-entry",
+      "a": "SportsFork",
+      "b": "court-in",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "R2--track-entry",
+      "a": "R2",
+      "b": "SportsFork",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "P1--P",
+      "a": "P1",
+      "b": "P",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "X2--SportsFork",
+      "a": "X2",
+      "b": "SportsFork",
+      "open": true,
+      "stairs": false
+    },
+    {
+      "id": "SportsFork--track",
+      "a": "SportsFork",
+      "b": "track-in",
+      "open": true,
+      "stairs": false
+    }
+  ],
+  "tours": [
+    {
+      "id": "first-walk",
+      "name": "初见南湖",
+      "description": "从北门进入，沿校内步道认识教学区、南湖分馆和校园餐饮。",
+      "stops": [
+        {
+          "place": "gate",
+          "note": "从北门开始，认识南湖校区的出入口。"
+        },
+        {
+          "place": "complex",
+          "note": "观察主楼层次和连续立面的节奏。"
+        },
+        {
+          "place": "library",
+          "note": "找到综合楼里的南湖分馆入口。"
+        },
+        {
+          "place": "canteen",
+          "note": "了解南湖食堂的三层餐饮分布。"
+        }
+      ]
+    }
+  ],
+  "water": [
+    {
+      "x": 32,
+      "z": 6
+    },
+    {
+      "x": 60,
+      "z": 3
+    },
+    {
+      "x": 91,
+      "z": 13
+    },
+    {
+      "x": 101,
+      "z": 37
+    },
+    {
+      "x": 87,
+      "z": 111
+    },
+    {
+      "x": 66,
+      "z": 137
+    },
+    {
+      "x": 10,
+      "z": 128
+    },
+    {
+      "x": 4,
+      "z": 111
+    },
+    {
+      "x": 18,
+      "z": 71
+    },
+    {
+      "x": 27,
+      "z": 35
+    }
+  ],
+  "calibration": {
+    "metersPerUnit": 1.8,
+    "source": "官方 GIS 地面点经近似仿射校正，以综合楼公开建筑面积和模型层板面积作粗略比例参考。1 局部单位约 1.8 米，实际路线以现场为准。"
+  },
+  "boundary": [
+    {
+      "x": -115,
+      "z": 126
+    },
+    {
+      "x": -120,
+      "z": 64
+    },
+    {
+      "x": -107,
+      "z": 15
+    },
+    {
+      "x": -84,
+      "z": -60
+    },
+    {
+      "x": -36,
+      "z": -111
+    },
+    {
+      "x": 52,
+      "z": -150
+    },
+    {
+      "x": 107,
+      "z": -144
+    },
+    {
+      "x": 143,
+      "z": -126
+    },
+    {
+      "x": 151,
+      "z": -91
+    },
+    {
+      "x": 145,
+      "z": -50
+    },
+    {
+      "x": 117,
+      "z": 12
+    },
+    {
+      "x": 104,
+      "z": 64
+    },
+    {
+      "x": 91,
+      "z": 117
+    },
+    {
+      "x": 63,
+      "z": 146
+    },
+    {
+      "x": -40,
+      "z": 144
+    }
+  ]
+}

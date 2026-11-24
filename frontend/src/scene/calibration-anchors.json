@@ -1,0 +1,542 @@
+{
+  "image": "gis-nanhu-full.png",
+  "viewport": [
+    1600,
+    1000
+  ],
+  "origin": [
+    780,
+    535
+  ],
+  "eastPixels": [
+    2.3,
+    1
+  ],
+  "southPixels": [
+    -1.65,
+    1.9
+  ],
+  "points": [
+    {
+      "id": "gate",
+      "pixel": [
+        1183,
+        348
+      ],
+      "projected": [
+        76,
+        -138
+      ],
+      "before": [
+        78,
+        -148
+      ],
+      "after": [
+        76,
+        -138
+      ]
+    },
+    {
+      "id": "east",
+      "pixel": [
+        1251,
+        467
+      ],
+      "projected": [
+        130,
+        -104
+      ],
+      "before": [
+        144,
+        -105
+      ],
+      "after": [
+        135,
+        -104
+      ]
+    },
+    {
+      "id": "west",
+      "pixel": [
+        522,
+        496
+      ],
+      "projected": [
+        -92,
+        28
+      ],
+      "before": [
+        -147,
+        64
+      ],
+      "after": [
+        -103,
+        29
+      ]
+    },
+    {
+      "id": "complex",
+      "pixel": [
+        1093,
+        433
+      ],
+      "projected": [
+        71,
+        -91
+      ],
+      "before": [
+        75,
+        -94
+      ],
+      "after": [
+        71,
+        -91
+      ]
+    },
+    {
+      "id": "library",
+      "pixel": [
+        1030,
+        514
+      ],
+      "projected": [
+        73,
+        -50
+      ],
+      "before": [
+        104,
+        -69
+      ],
+      "after": [
+        73,
+        -50
+      ]
+    },
+    {
+      "id": "canteen",
+      "pixel": [
+        806,
+        435
+      ],
+      "projected": [
+        -19,
+        -43
+      ],
+      "before": [
+        -18,
+        -43
+      ],
+      "after": [
+        -19,
+        -43
+      ]
+    },
+    {
+      "id": "d11",
+      "pixel": [
+        617,
+        676
+      ],
+      "projected": [
+        -13,
+        81
+      ],
+      "before": [
+        -105,
+        -16
+      ],
+      "after": [
+        -11,
+        84
+      ]
+    },
+    {
+      "id": "d12",
+      "pixel": [
+        364,
+        649
+      ],
+      "projected": [
+        -100,
+        113
+      ],
+      "before": [
+        -123,
+        131
+      ],
+      "after": [
+        -100,
+        115
+      ]
+    },
+    {
+      "id": "d13",
+      "pixel": [
+        411,
+        609
+      ],
+      "projected": [
+        -96,
+        90
+      ],
+      "before": [
+        -125,
+        100
+      ],
+      "after": [
+        -97,
+        92
+      ]
+    },
+    {
+      "id": "d14",
+      "pixel": [
+        711,
+        614
+      ],
+      "projected": [
+        0,
+        42
+      ],
+      "before": [
+        0,
+        88
+      ],
+      "after": [
+        0,
+        42
+      ]
+    },
+    {
+      "id": "d15",
+      "pixel": [
+        763,
+        507
+      ],
+      "projected": [
+        -13,
+        -8
+      ],
+      "before": [
+        -31,
+        -5
+      ],
+      "after": [
+        -13,
+        -8
+      ]
+    },
+    {
+      "id": "hall",
+      "pixel": [
+        641,
+        504
+      ],
+      "projected": [
+        -52,
+        11
+      ],
+      "before": [
+        -73,
+        46
+      ],
+      "after": [
+        -53,
+        14
+      ]
+    },
+    {
+      "id": "court",
+      "pixel": [
+        597,
+        635
+      ],
+      "projected": [
+        -30,
+        69
+      ],
+      "before": [
+        -116,
+        61
+      ],
+      "after": [
+        -30,
+        69
+      ]
+    },
+    {
+      "id": "track",
+      "pixel": [
+        497,
+        604
+      ],
+      "projected": [
+        -70,
+        73
+      ],
+      "before": [
+        -67,
+        105
+      ],
+      "after": [
+        -70,
+        76
+      ]
+    },
+    {
+      "id": "d1",
+      "pixel": [
+        986,
+        335
+      ],
+      "projected": [
+        10,
+        -111
+      ],
+      "after": [
+        10,
+        -110
+      ],
+      "added": true,
+      "label": "宿舍 1 栋"
+    },
+    {
+      "id": "d2",
+      "pixel": [
+        953,
+        359
+      ],
+      "projected": [
+        6,
+        -96
+      ],
+      "after": [
+        6,
+        -95
+      ],
+      "added": true,
+      "label": "宿舍 2 栋"
+    },
+    {
+      "id": "d3",
+      "pixel": [
+        883,
+        402
+      ],
+      "projected": [
+        -4,
+        -68
+      ],
+      "after": [
+        -3,
+        -70
+      ],
+      "added": true,
+      "label": "宿舍 3 栋"
+    },
+    {
+      "id": "d4",
+      "pixel": [
+        702,
+        386
+      ],
+      "projected": [
+        -65,
+        -44
+      ],
+      "after": [
+        -65,
+        -44
+      ],
+      "added": true,
+      "label": "宿舍 4 栋"
+    },
+    {
+      "id": "d5",
+      "pixel": [
+        663,
+        432
+      ],
+      "projected": [
+        -65,
+        -20
+      ],
+      "after": [
+        -64,
+        -19
+      ],
+      "added": true,
+      "label": "宿舍 5 栋"
+    },
+    {
+      "id": "d6",
+      "pixel": [
+        640,
+        347
+      ],
+      "projected": [
+        -96,
+        -49
+      ],
+      "after": [
+        -95,
+        -47
+      ],
+      "added": true,
+      "label": "宿舍 6 栋"
+    },
+    {
+      "id": "d7",
+      "pixel": [
+        615,
+        380
+      ],
+      "projected": [
+        -95,
+        -32
+      ],
+      "after": [
+        -95,
+        -33
+      ],
+      "added": true,
+      "label": "宿舍 7 栋"
+    },
+    {
+      "id": "d8",
+      "pixel": [
+        599,
+        406
+      ],
+      "projected": [
+        -92,
+        -19
+      ],
+      "after": [
+        -93,
+        -19
+      ],
+      "added": true,
+      "label": "宿舍 8 栋"
+    },
+    {
+      "id": "d9",
+      "pixel": [
+        567,
+        433
+      ],
+      "projected": [
+        -95,
+        -4
+      ],
+      "after": [
+        -94,
+        -4
+      ],
+      "added": true,
+      "label": "宿舍 9 栋"
+    },
+    {
+      "id": "d10",
+      "pixel": [
+        551,
+        461
+      ],
+      "projected": [
+        -93,
+        10
+      ],
+      "after": [
+        -95,
+        11
+      ],
+      "added": true,
+      "label": "宿舍 10 栋"
+    },
+    {
+      "id": "youth",
+      "pixel": [
+        1040,
+        297
+      ],
+      "projected": [
+        17,
+        -134
+      ],
+      "after": [
+        25,
+        -135
+      ],
+      "added": true,
+      "label": "南湖青年公寓"
+    },
+    {
+      "id": "logistics",
+      "pixel": [
+        797,
+        382
+      ],
+      "projected": [
+        -37,
+        -61
+      ],
+      "after": [
+        -37,
+        -63
+      ],
+      "added": true,
+      "label": "南湖智慧物流中心"
+    },
+    {
+      "id": "training",
+      "pixel": [
+        752,
+        603
+      ],
+      "projected": [
+        10,
+        31
+      ],
+      "after": [
+        10,
+        30
+      ],
+      "added": true,
+      "label": "培训中心"
+    },
+    {
+      "id": "sport-lab",
+      "pixel": [
+        661,
+        655
+      ],
+      "projected": [
+        -5,
+        66
+      ],
+      "after": [
+        -5,
+        59
+      ],
+      "added": true,
+      "label": "体育学院实验基地"
+    },
+    {
+      "id": "psych-lab",
+      "pixel": [
+        680,
+        666
+      ],
+      "projected": [
+        4,
+        67
+      ],
+      "after": [
+        0,
+        68
+      ],
+      "added": true,
+      "label": "心理学院实验基地"
+    }
+  ]
+}
